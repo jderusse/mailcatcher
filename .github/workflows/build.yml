@@ -21,9 +21,8 @@ jobs:
         with:
           images: jderusse/mailcatcher
           flavor: |
-            latest=auto
+            latest=true
           tags: |
-            type=ref,event=branch
             type=ref,event=tag
       -
         name: Set up QEMU
